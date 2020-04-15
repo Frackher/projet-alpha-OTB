@@ -1878,4 +1878,24 @@ ul.actions {
         #copyright ul li:first-child {
           margin-top: 0; } }
 
+  #popin{
+    box-shadow: 1px 1px 12px #555;
+    color: white;
+    background-color: #1f232b;
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    padding: 5px;
+    z-index: 1;
+  }
+
+  #popin span{
+    position: relative;
+    color: darkred;
+  }
+
+  #popin p{
+    margin : 4px;
+  }
+
 /*# sourceMappingURL=main.css.map */
