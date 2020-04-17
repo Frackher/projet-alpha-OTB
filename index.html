@@ -179,7 +179,7 @@
 
                         <!-- Contact Form -->
                         <section>
-                            <form method="post" action="mail.php">
+                            <form method="post" action="#">
                                 <div class="row gtr-50">
                                     <div class="col-6 col-12-small">
                                         <input type="text" name="name" id="contact-name" placeholder="Nom" />
@@ -192,11 +192,13 @@
                                     </div>
                                     <div class="col-12">
                                         <ul class="actions">
-                                            <li><input type="submit" class="style1" value="Envoyer" /></li>
+                                            <li><input id="submit" type="submit" class="style1" value="Envoyer" /></li>
                                         </ul>
                                     </div>
                                 </div>
                             </form>
+                            <div id="ajaxResponseSuccess" role="alert"></div>
+                            <div id="ajaxResponseFail" role="alert"></div>
                         </section>
 
                     </div>
@@ -261,6 +263,7 @@
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
+    <script src="assets/js/mail.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
