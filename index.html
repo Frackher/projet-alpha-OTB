@@ -32,10 +32,10 @@
                     <li>
                         <a href="#">Shortcuts</a>
                         <ul>
-                            <li><a href="#">Lorem ipsum dsd</a></li>
-                            <li><a href="#">Magna veroeros</a></li>
-                            <li><a href="#">Etiam nisl</a></li>
-                            <li><a href="#">Nisl tempus</a></li>
+                            <li><a href="#intro">INTRODUCTION</a></li>
+                            <li><a href="#main">LE PROJET EN DÉTAILS</a></li>
+                            <li><a href="#highlights">TÉMOIGNAGES</a></li>
+                            <li><a href="#footer">NOUS CONTACTER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@
 
                 <!-- Image -->
                 <a href="#" class="image featured">
-                    <img src="img/dna_illu_02.jpg" alt="" />
+                    <img src="img/dna_illu_01.jpg" alt="" />
                 </a>
 
                 <!-- Features -->
@@ -117,9 +117,15 @@
                         </div>
                     </div>
                     <ul class="actions special">
-                        <li><a href="#" class="button style1 large">Get Started</a></li>
-                        <li><a href="#" class="button style2 large">More Info</a></li>
+                        <li><a href="https://www.23andme.com/en-int/" class="button style1 large">Démarrez</a></li>
+                        <li><a id="boutonInfo" class="button style2 large">+ d'infos</a></li>
                     </ul>
+                    <div id="popin" style="display: none">
+                        <a id="closeB">Fermer</a>
+                        <p>L'édition génomique ou modification localisée de séquence génomique (genome editing pour les anglophones) regroupe un ensemble de techniques de manipulation du génome visant à la modification du matériel (et donc de l'information)
+                            génétique. Ces techniques sont plus précises et ciblées que les techniques OGM historiques qui voient ces organismes transformés par transgenèse qui introduit des modifications génétiques au niveau d'un site « au hasard » dans
+                            le génome.</p>
+                    </div>
                 </section>
 
             </div>
@@ -132,9 +138,9 @@
                 <div class="row aln-center">
                     <div class="col-4 col-12-medium">
                         <section class="highlight">
-                            <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-                            <h3><a href="#">Aliquam diam consequat</a></h3>
-                            <p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+                            <a href="#" class="image featured"><img src="images/PIXNIO-191981-2462x3693.jpg" alt="" /></a>
+                            <h3><a href="#">Isabelle Balkany</a></h3>
+                            <p>La thérapie génique a changée ma vie, et le meilleur, ça ne m'a rien coûté !</p>
                             <ul class="actions">
                                 <li><a href="#" class="button style1">Learn More</a></li>
                             </ul>
@@ -263,8 +269,9 @@
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/mail.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/popin.js"></script>
+    <script src="assets/js/mail.js"></script>
 
 </body>
 
