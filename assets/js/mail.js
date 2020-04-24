@@ -18,6 +18,8 @@ document.querySelector("#contact-message").addEventListener("focus", function() 
 
 
 function sendMail() {
+    event.preventDefault();
+
     let email = document.querySelector("#contact-email").value;
     let subject = "Projet Alpha";
     let name = document.querySelector("#contact-name").value;
@@ -55,8 +57,6 @@ function sendMail() {
     xhttp.open("POST", "mail.php", true);
     xhttp.send(formdata);
 }
-
-
 
 
 submit.addEventListener('click', sendMail());
