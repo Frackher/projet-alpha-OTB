@@ -133,7 +133,7 @@
 
         <!-- Highlights -->
         <section id="highlights" class="wrapper style3">
-            <div class="title">The Endorsements</div>
+            <div class="title">Témoignages</div>
             <div class="container">
                 <div class="row aln-center">
                     <div class="col-4 col-12-medium">
@@ -158,9 +158,9 @@
                     </div>
                     <div class="col-4 col-12-medium">
                         <section class="highlight">
-                            <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                            <h3><a href="#">Mattis tempus lorem</a></h3>
-                            <p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+                            <a href="#" class="image featured"><img src="images/couple.jpg" alt="" /></a>
+                            <h3><a href="#">Yvon & Ehl Lavallé</a></h3>
+                            <p>5 ans de vie commune, 3 ans de mariage. Ils sont enfin frère et soeur. Merci l'Institut Pasteur.</p>
                             <ul class="actions">
                                 <li><a href="#" class="button style1">Learn More</a></li>
                             </ul>
@@ -172,12 +172,12 @@
 
         <!-- Footer -->
         <section id="footer" class="wrapper">
-            <div class="title">The Rest Of It</div>
+            <div class="title">Nous contacter</div>
             <div class="container">
                 <header class="style1">
-                    <h2>Ipsum sapien elementum portitor?</h2>
+                    <h2>Vous avez encore des questions ?</h2>
                     <p>
-                        Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br /> Nam pharetra laoreet imperdiet volutpat etiam feugiat.
+                        Notre équipe d'agents et d'experts se tient à votre disposition, toute l'année,</br>et 24h/24, alors n'hésitez plus !
                     </p>
                 </header>
                 <div class="row">
@@ -188,7 +188,7 @@
                             <form method="post" action="#">
                                 <div class="row gtr-50">
                                     <div class="col-6 col-12-small">
-                                        <input type="text" name="name" id="contact-name" placeholder="Name" />
+                                        <input type="text" name="name" id="contact-name" placeholder="Nom" />
                                     </div>
                                     <div class="col-6 col-12-small">
                                         <input type="text" name="email" id="contact-email" placeholder="Email" />
@@ -198,12 +198,13 @@
                                     </div>
                                     <div class="col-12">
                                         <ul class="actions">
-                                            <li><input type="submit" class="style1" value="Send" /></li>
-                                            <li><input type="reset" class="style2" value="Reset" /></li>
+                                            <li><input id="submit" type="submit" class="style1" value="Envoyer" /></li>
                                         </ul>
                                     </div>
                                 </div>
                             </form>
+                            <div id="ajaxResponseSuccess" role="alert"></div>
+                            <div id="ajaxResponseFail" role="alert"></div>
                         </section>
 
                     </div>
@@ -270,6 +271,7 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/popin.js"></script>
+    <script src="assets/js/mail.js"></script>
 
 </body>
 
